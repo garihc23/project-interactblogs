@@ -1,0 +1,11 @@
+/* //src/App.css */
+.main-container {
+   margin-left: 60px;
+   transition: margin-left 450ms;
+}
+
+.shifted-content {
+    width: 90vw;
+    margin-left: 200px !important;
+    transition: margin-left 450ms;
+}

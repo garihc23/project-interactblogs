@@ -1,0 +1,48 @@
+/* src/assets/css/Login.css */
+
+/* Styles for the login container */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  
+  /* Styles for the login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for the form labels */
+  .login-label {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the form inputs */
+  .login-input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styles for the login button */
+  .login-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Styles for the login button on hover */
+  .login-button:hover {
+    background-color: #217dbb;
+  }
+  

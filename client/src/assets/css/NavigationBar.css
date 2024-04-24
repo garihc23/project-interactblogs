@@ -1,0 +1,123 @@
+/* Navbar Container */
+.navbar-container {
+    /* Add styles for the container of the entire navbar */
+    width: 100% !important;
+    /* flex-shrink: 0; */
+    height: 100px !important;
+    background: #000 !important;
+}
+
+.navbar-container .navbar-brand,
+.navbar-container .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 12px;
+}
+
+/* Logo Styles */
+.navbar-brand {
+    width: 130px;
+    /*  overflow: hidden; */
+    align-items: center;
+    
+
+    /* flex-shrink: 0; */
+    /* border-radius: 23px;
+    border: 1px solid #000;
+    background: #FFF; */
+}
+
+.navbar-logo-img {
+    width: 130px; 
+    /*  height: 50px; */
+    /* overflow: hidden; */
+    /* flex-shrink: 0; */
+}
+
+/* Logo Text Styles */
+/* .navbar-brand-custom-text {
+    width: 56px;
+    height: 22.824px;
+    flex-shrink: 0;
+} */
+
+/* Logo SVG Styles */
+/* .navbar-logo-svg {
+    width: 56px;
+    height: 24px;
+    fill: #EF5DA8;
+} */
+
+.navbar-nav {
+    margin: 0 -80px 0 200px;
+}
+
+/* Navbar Links */
+.navbar-link {
+    /* Add styles for the navigation links */
+
+}
+
+/* Navbar Link Item */
+.navbar-link-item {
+    /* Add styles for individual navigation link items */
+    margin: 0 10px;
+}
+
+/* Navbar Dropdown */
+.navbar-dropdown {
+    /* Add styles for dropdown menus */
+}
+
+/* Navbar Dropdown Item */
+.navbar-dropdown-item {
+    /* Add styles for individual items inside dropdown menus */
+}
+
+/* Login Button */
+.navbar-login {
+    /* width: 100%;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.navbar-login-btn {
+    /* Add styles for the login button */
+    display: inline-flex;
+    height: 43.664px;
+    padding: 14px 21.844px 12px 22px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid #FFF;
+    background: #000;
+    color: #FFF;
+    margin-right: 12px;
+
+    transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
+}
+.navbar-login-btn:hover{
+    background: black;
+    color: #D44E04;
+    border: 2px solid #D44E04;
+    
+}
+/* Create Account Button */
+.navbar-create-account-btn {
+    /* Add styles for the create account button */
+    display: inline-flex;
+    height: 43.664px;
+    padding: 14px 25.859px 12px 25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: #D44E04;
+
+    transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
+}
+.navbar-create-account-btn:hover{
+    background:#953500;
+    border: 2px solid #953500;;
+}

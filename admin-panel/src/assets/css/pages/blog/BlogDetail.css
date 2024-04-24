@@ -1,0 +1,40 @@
+/* assets/css/pages/BlogDetail.css */
+.blog-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-detail-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-detail-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .blog-detail-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .blog-detail-shortDesc {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+  .blog-detail-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  /* Add more styles as needed */
+  

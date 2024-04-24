@@ -1,0 +1,29 @@
+.community-container {
+    background-color: black;
+    padding: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.community-heading-col {
+    padding: 50px;
+}
+
+.community-heading {
+    color: #fff;
+    font-size: 32px;
+}
+.community-details{
+    max-width: 210px;
+}
+.community-numbers {
+    color: #FBC008;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.community-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 900;
+}

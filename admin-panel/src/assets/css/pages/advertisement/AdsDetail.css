@@ -1,0 +1,42 @@
+
+/* ads-detail-styles.css */
+
+/* Container styles */
+.ads-detail-container {
+  padding: 20px;
+  margin: 20px ;
+  max-width: 600px;
+}
+
+/* Advertisement details styles */
+.ads-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ads-detail-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ads-detail-date {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ads-detail-active {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Image styles */
+.ads-detail-image {
+  /* max-width: 100%; */
+  /* height: auto; */
+  margin-top: 20px;
+}
+
+.ads-detail-back-btn{
+  margin-top: 20px;
+}

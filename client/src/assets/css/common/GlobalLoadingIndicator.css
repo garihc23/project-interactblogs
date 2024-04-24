@@ -1,0 +1,17 @@
+/* client/src/assets/css/common/GlobalLoadingIndicator.css*/
+
+.global-loading-indicator {
+    height: 4px;
+    background-color: #d44e05; /* Or your desired color */
+    width: 0; /* Initially not visible */
+    transition: width 0.5s ease; /* Smooth transition effect */
+  }
+  
+  .visible {
+    width: 100%;
+  }
+  
+  .hidden {
+    width: 0;
+  }
+  

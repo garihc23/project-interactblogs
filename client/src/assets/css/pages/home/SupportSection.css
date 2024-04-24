@@ -1,0 +1,62 @@
+.sup-container {
+    margin: 80px ;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: row;
+}
+
+
+.sup-story-card {
+    width: 490px;
+    padding: 50px 80px;
+    border-radius: 48px;
+    background: linear-gradient(180deg, #D44E04 0%, rgba(212, 78, 4, 0.54) 100%);
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.sup-story-card h5 {
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.sup-story-card p {}
+
+.sup-story-card Button {
+    display: flex;
+    padding: 16px ;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 42px;
+    border: 2px solid #02033B;
+    background: rgba(12, 13, 67, 0.90);
+    width: 140px;
+    font-size: 14px;
+}
+
+.sup-help-card {
+    width: 340px;
+    padding: 50px 80px;
+    color: #02033B;
+    border: none;
+}
+
+.sup-help-card h5 {
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.sup-help-card Button {
+    display: flex;
+    padding: 16px;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 42px;
+    border: 2px solid #02033B;
+    background: rgba(255, 255, 255, 0.00);
+    color: #02033B;
+    font-weight: 800;
+}

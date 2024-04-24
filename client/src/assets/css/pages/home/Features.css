@@ -1,0 +1,81 @@
+/* Add this to adjust the color of left and right arrows */
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+    /* Change arrow color to black */
+}
+
+/* Add this to adjust the size of the arrows */
+.slick-prev,
+.slick-next {
+    font-size: 24px !important;
+}
+
+/* Add this to adjust the size and spacing of the items */
+.feature-tags {
+    font-size: 12px;
+    white-space: nowrap;
+    padding: 10px;
+    text-align: center;
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+    background-color: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    cursor: pointer;
+    color: #050038;
+}
+
+.feature-tags:hover {
+    background-color: #F1F3FD;
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+}
+
+.features-container {
+    padding: 130px 80px;
+}
+
+.features-heading {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.feature-tags-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.features-expanded-container {
+    padding: 80px 80px;
+    border: 1px solid none;
+}
+
+.features-title {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.features-description {
+    padding-top: 50px;
+    max-width: 280px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(5, 0, 56, 0.70);
+}
+
+.features-link {
+    padding-top: 80px;
+}
+
+.features-img {
+    padding: 0px 50px;
+}
+
+

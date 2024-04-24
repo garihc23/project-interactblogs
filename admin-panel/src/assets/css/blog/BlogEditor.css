@@ -1,0 +1,38 @@
+/* BlogEditor.css */
+
+.blog-edit-container {
+  max-width: 800px !important;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.blog-edit-btn {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.ql-editor {
+  /* border: .1px solid #ccc; */
+  min-height: 200px;
+  /* border-bottom-left-radius: 0.5em; */
+  /* border-bottom-right-radius: 0.5em; */
+}

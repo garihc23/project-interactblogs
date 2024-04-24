@@ -1,0 +1,59 @@
+.blog-nav-container {
+    /* Add styles for the container of the entire navbar */
+    width: 100% !important;
+    /* flex-shrink: 0; */
+    height: 100px !important;
+    background: #000 !important;
+}
+
+.blog-nav-container .navbar-brand,
+.blog-nav-container .blog-navbar-nav .blog-nav-link {
+    color: #ffffff !important;
+    font-size: 12px;
+}
+
+.blog-nav-logo {
+    width: 200px;
+    height: auto; /* Let the browser calculate the height to maintain aspect ratio */
+    margin-top: 10px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.blog-navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-nav-link-item {
+    margin-right: 42px;
+    font-size: 18px;
+}
+
+.blog-nav-search-container {
+    display: flex;
+    justify-content: center;
+    margin-left: -350px;
+}
+
+.blog-nav-search-bar {
+    width: 70%;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 30px 0px 0px 30px;
+    border: 0.5px solid #000;
+    padding: 10px;
+}
+
+.blog-nav-search-btn {
+    width: 20%;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #D44E04;
+    background-color: #D44E04;
+    color: #fff;
+
+}
+
+.blog-nav-search-btn:hover {
+    background-color: #953500;
+    border: 2px solid #953500;
+}

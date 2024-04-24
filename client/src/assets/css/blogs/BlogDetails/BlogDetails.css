@@ -1,0 +1,32 @@
+.blog-title-img {
+    width: 890px;
+    height: 340px;
+    margin: 0px 0 30px 0;
+    /* aspect-ratio: .51; */
+}
+
+.blog-details{
+    margin-top: 50px;
+}
+
+.blog-content {
+    width: 890px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.blog-heading {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 19px 0 12px 0;
+}
+
+.blog-desc {
+    font-size: 15px;
+}

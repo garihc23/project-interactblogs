@@ -1,0 +1,39 @@
+/* src/assets/css/pages/advertisement/AdsPage.css */
+
+.ads-page-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.sorting-options {
+    /* Add styles for the sorting buttons container */
+    margin-bottom: 20px;
+}
+
+.sorting-options button {
+    /* Add styles for individual sorting buttons */
+    margin-right: 10px;
+}
+
+.add-advertisement-btn {
+    /* Add styles for the "Add Advertisement" button */
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    /* Add styles for the modal title */
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.pagination {
+    /* Add styles for the pagination container */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    /* Add styles for individual pagination buttons */
+    margin-right: 5px;
+}

@@ -1,0 +1,37 @@
+.header-banner-container {
+    width: 100% !important;
+}
+
+.header-banner-img {
+    height: 550px;
+    width: 100% !important;
+}
+
+/* CSS to hide extra pagination dots */
+carousel-indicators {
+    li {
+        display: none;
+    }
+
+    li.active {
+        display: inline-block;
+    }
+}
+
+/* Adjust the size of pagination dots (optional) */
+carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+/* Add custom navigation icons */
+carousel-control-prev-icon::before {
+    content: '\2039';
+    /* Unicode character for left arrow (‹) */
+}
+
+carousel-control-next-icon::before {
+    content: '\203A';
+    /* Unicode character for right arrow (›) */
+}

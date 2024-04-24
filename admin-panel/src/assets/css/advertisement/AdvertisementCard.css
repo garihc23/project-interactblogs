@@ -1,0 +1,49 @@
+/*//src/assets/css/advertisement/AdvertisementCard.css */
+
+.advertisement-card {
+    width: 100%;
+    height: 425px;
+    margin-top: 10px;
+}
+
+.advertisement-card img {
+    width: 100%;
+    max-width: 340px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+
+/* Add more custom class styles as needed */
+.ad-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+    color: #333;
+}
+
+.ad-card-date {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Add styles for the edit and delete buttons */
+.ad-card-edit-btn {
+    width: 100%;
+    background-color: #17a2b8;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.ad-card-delete-btn {
+    width: 100%;
+    background-color: #dc3545;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: flex-end;
+}
